@@ -1,5 +1,5 @@
 import styles from "./SideBar.module.css";
-
+import { PencilLine } from "phosphor-react";
 export function SideBar() {
     return (
         <aside className={styles.sidebar}>
@@ -16,6 +16,7 @@ export function SideBar() {
 
             <footer>
                 <a href="#">
+                    <PencilLine size={20}/>
                     editar seu perfil
                 </a>
             </footer>
